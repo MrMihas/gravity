@@ -1,0 +1,15 @@
+.services__menu{
+	.services__item > *{
+	color: $color__text;
+	opacity: .5;
+	line-height: 156%;
+}
+}
+.services__item{
+	padding-bottom: $padding__menu;
+}
+
+.services__list{
+	justify-content: space-between;
+
+}
