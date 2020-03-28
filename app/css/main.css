@@ -3836,7 +3836,18 @@ header {
   line-height: 156%; }
 
 .services__item {
-  padding-bottom: 19px; }
+  padding-bottom: 19px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .services__item:hover a {
+    color: #1434e1;
+    opacity: 1; }
 
 .services__list {
   -webkit-box-pack: justify;
