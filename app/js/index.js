@@ -26,7 +26,7 @@
 
 // open and clz menu
 const menuLines = document.querySelector(".lines");
-const headerFixed = document.querySelector("header");
+const headerFixed = document.querySelector(".header__menu");
 menuLines.onclick = function(e){
 	e.preventDefault();
 	const menu = document.querySelector(".menu__container");
