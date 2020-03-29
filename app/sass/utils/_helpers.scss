@@ -114,41 +114,8 @@
 }
 }
 
-.lines{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
 
-    &:before, 
-    &:after
-    {
-        content: "";
-        position: absolute;
-        display: inline;
-        height: 3px;
-        background: $background__lines;
-        right: 0;
-        transition: width 0.3s;
-    }
 
-    &:before{
-        top: 0;
-        width: 100%;
-    }
-    &:after{
-        bottom: 0;
-        width: 50%;
-    }
-
-    &:hover{
-        &:after{
-            width: 100%;
-        }
-    }
-
-}
 
 .title{
     font-size: 39px;
