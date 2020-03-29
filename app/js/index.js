@@ -46,7 +46,7 @@ for (let i = 0; i < navLink.length; i++) {
 	navLink[i].onclick = function(){
 		const menu = document.querySelector(".menu__container");
 		const menuLines = document.querySelector(".lines");
-const headerFixed = document.querySelector("header");
+const headerFixed = document.querySelector(".header__menu");
 		menu.classList.remove("open");
 		menuLines.classList.remove("close");
 		headerFixed.classList.remove("fixed");
