@@ -21,6 +21,7 @@
 // })
 
 
+
 // раздел меню
 
 // open and clz menu
@@ -51,3 +52,5 @@ const headerFixed = document.querySelector("header");
 		headerFixed.classList.remove("fixed");
 	}
 }
+
+
